@@ -2,12 +2,63 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Decoder is a",
+      "question": "For very low conversion, the value of Damkohler number is ____",
       "answers": {
-        "a": "sequential circuit",
-        "b": "complex circuit",
-        "c": "combinational circuit",
-        "d": "gate"
+        "a": "≤0.1",
+        "b": ">10",
+        "c": "≥0.1",
+        "d": "= 10"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In case of staged packed bed reactors carrying out exothermic reaction, use",
+      "answers": {
+        "a": "High recycle for pure gas",
+        "b": "Plug flow for dilute liquid requiring no large preheating of feed",
+        "c": "Cold shot operations for a dilute solution requiring large preheating to bring the stream upto the reaction temperature",
+        "d": "All (A), (B) and (C)"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The performance equations for constant density systems are identical for",
+      "answers": {
+        "a": "P.F.R. and backmix reactor",
+        "b": "P.F.R. and batch reactor",
+        "c": "P.F.R, batch reactor and backmix reactor",
+        "d": "Batch reactor and backmix reactor"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The equilibrium constant of chemical reaction __________ in the presence of catalyst.",
+      "answers": {
+        "a": "Increases",
+        "b": "Decreases",
+        "c": "Remain unaffected",
+        "d": "Can either increase or decrease (depends on the type of catalyst)"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +70,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "IC decoders are made with?",
+      "question": "Study of chemical kinetics is the easiest in the case of __________ reactions. ",
       "answers": {
-        "a": "AND gate",
-        "b": "OR gate",
-        "c": "NAND gate",
-        "d": "XOR gate"
+        "a": "Irreversible",
+        "b": "Reversible",
+        "c": "Surface",
+        "d": "Side"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -32,7 +83,7 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
