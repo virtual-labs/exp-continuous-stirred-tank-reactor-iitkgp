@@ -2,12 +2,46 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Encoders are made by three",
+      "question": "What is the mole balance of a component in a CSTR? (Where F0 is the molar flowrate of reactant entering and F is the exit molar flowrate)",
       "answers": {
-        "a": "AND gate",
-        "b": "OR gate",
-        "c": "NAND gate",
-        "d": "XOR gate"
+        "a": "F0 = FX + F",
+        "b": "F0 = FX + F0",
+        "c": "F0 = F0X + F",
+        "d": "F0 = X + F"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the concentration C4 at the end of 4th reactor, for n unequal sized CSTRs in series, where X4 is the conversion in 4th reactor?",
+      "answers": {
+        "a": "C4 = (1 – X4)",
+        "b": "C4 = C0X4",
+        "c": "C0 = C4 (1 – X4)",
+        "d": "C4 = C0(1 – X4)"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For equal sized CSTRs in series carrying out 1st order reactions of constant density, which of the following is true? (ki is the rate constant in a reactor ‘i’ in series)",
+      "answers": {
+        "a": "k1 ≠ k2 ≠ … ≠ kn, τ1 = τ2 = … = τn",
+        "b": "k1 = k2 = … = kn, τ1 = τ2 = … = τn",
+        "c": "k1 = k2 = … = kn, τ1 ≠ τ2 ≠ … ≠ τn",
+        "d": "k1< k2< …<kn, τ1 = τ2 = … = τn"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +53,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "A circuit that converts n inputs to 2^n outputs is called",
+      "question": "With increase in temperature, the equilibrium conversion of a reversible exothermic reaction",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Decreases",
+        "b": "Increases",
+        "c": "Remain unaffected",
+        "d": "Decreases linearly with temperature"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -32,7 +66,7 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
