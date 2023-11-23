@@ -6,9 +6,11 @@
 3. Flow reactors<br>
 &nbsp&nbsp&nbsp&nbsp a. Tubular reactor<br>
  &nbsp&nbsp&nbsp&nbsp b. Continuous stirred tank reactor</p><br>
-<p style="text-align:left; font-size:18px; font-weight:bold;">Activation Energy</p>
+ 
+## Activation Energy
+ 
  <p style="padding-bottom: 10px;">Activation energy is defined as the minimum energy required starting a chemical reaction. The activation energy of a reaction is denoted by E, and unit is kilojoules per mole. Activation energy can be thought of as the height of the potential barrier (sometimes called the energy barrier) separating two minima of potential energy (of the reactants and products of a reaction). For a chemical reaction to proceed at a reasonable rate, there should exit an appreciable number of molecules with energy equal to or greater than the activation energy.</p><br>
- <p style="text-align:left; font-size:18px; font-weight:bold;">Reaction Rate Constant</p>
+## Reaction Rate Constant
  <p style="padding-bottom: 10px;">For many reaction, and particularly elementary reaction, the rate expression can be written as a product of a temperature-dependent term and composition dependent term.<br><b>`ri=fi(temperature).f2(composition)`</b><br>For such reactions the temperature-dependent term, the reaction rate constant, has been found in practically all cases to be well represented by Arrhenius's law<br>
   $$k= \alpha exp(-\frac{E}{RT})$$
 <br>At the same concentration, but at two different temperatures, Arrhenius's law indicates that<br>
@@ -17,13 +19,18 @@
 <br>E = Activation energy
 <br>R = Universal gas constant.</p><br>
 
-<p style="text-align:left; font-size:18px; font-weight:bold;">Heat Of Reaction</p>
+## Heat Of Reaction
+
 <p style="padding-bottom: 10px;">Heat of reaction is the amount of heat that must be added or removed during a chemical reaction in order to keep all of the substances present at the same temperature. If the pressure in the vessel containing the reacting system is kept at constant value, the measured heat of reaction also represents the change in the thermodynamic quantity called enthalpy, or heat content, accompanying the process- i.e., the difference between the enthalpy of the substances present at the start of the reaction. Thus, the heat of reaction determined at constant pressure is also designated the enthalpy of reaction, represented by the symbol `Delta H` . If the heat of reaction is positive, the reaction is said to be endothermic and if negative, exothermic.</p>
-<br><p style="text-align:left; font-size:18px; font-weight:bold;">Continuous Stirred Tank Reactor Theory</p>
+
+## Continuous Stirred Tank Reactor Theory
+
 <p style="padding-bottom: 10px;">The continuous stirred tank reactor or back mix reactor is a very common processing unit in chemical and polymer industry. Its names suggest, it is a reactor in which the contents are well stirred and uniform throughout. The CSTR is normally run at steady state, and is usually operated so as a to be quite well mixed. The CSTR is generally modeled as having no spatial variations in concentrations, temperature, or reaction rate throughout the vessel. Since the temperature and concentration are identical everywhere within the reaction vessel, they are the same at the exits point as they are elsewhere in the tank.</p>
-<br><p style="text-align:left; font-size:18px; font-weight:bold;">Steady State</p>
+## Steady State
+
 <p style="padding-bottom: 10px;">A situation in which all the state variables remain constant despite parallel processes trying to change them, is referred to as the steady state.</p>
-<br><p style="text-align:left; font-size:18px; font-weight:bold;">Time Constant</p>
+
+## Time Constant
 <p style="padding-bottom: 10px;">When we talk about time constant, it's essential to take into account the context in which we are talking about it. In our case, time constant can be defined as 63% of the time that will be taken for a body to reach steady state.</p>
 <p style="text-align:left; font-size:14px; font-weight:bold;">Setup</p>
 <p style="padding-bottom: 10px;">
@@ -31,16 +38,17 @@ The following second-order, exothermic chemical reaction takes place in the reac
 <br/>
 <img src="images/5.JPG" style="height: 300px;width: 300px"></img><br>Reactant A and B is continuously fed to the reactor with a volumetric flow rate FA0 and FB0, a molar concentration CA , and CB temperature T0. The contents are uniformly mixed by motorized agitator. An exit stream, which contains a mixture of reactant A and B and product C and D, is withdrawn from the reactor continuously with a volumetric flow rate F. The prescribed reaction is exothermic and it is necessary to add a cooling jacket to keep it temperature below 315K. A coolant stream volumetric flow rate Fj and inlet temperature Tj0 continuously takes out the heat to maintain the described reaction temperature.
 </p>
-<p style="text-align:left; font-size:18px; font-weight:bold;">Mathematical modeling of continuous stirred tank reactor</p><br>
+## Mathematical modeling of continuous stirred tank reactor
+
 <p style="padding-bottom: 10px;;font-weight:bold;">
-Assumptions
+### Assumptions
 <br/>
 <li> The mixture density (p) and heat capacity (Cp) are assumed constant.</li>
 <li>The reacting mixture is assumed to be well mixed.</li>
 <li>The heat losses from the process to the atmosphere are negligible.</li>
  <li>The overall heat transfer coefficient is assumed constant.</li>
  </p><br>
- <p style="padding-bottom: 10px;;font-weight:bold;">Inputs to the system are</p>
+### Inputs to the system are
 <p style="padding-bottom: 10px;"><li>Initial concentration of component A =CA0</li>
  <li>Initial concentration of component B =CB0</li>
 <li>Flow rate of A =FA0</li>
@@ -48,9 +56,13 @@ Assumptions
 <li>Jacket flow rate =Fj</li>
  <li>Feed temperature =T0</li>
  <li>Jacket temperature =Tj0</li></p><br>
-<p style="text-align:left; font-size:18px; font-weight:bold;">Component continuity equation</p><br>
+ 
+## Component continuity equation
+
 <p style="padding-bottom: 10px;">The component balance equation is<br><br>`[["Rate of accumulation"],["within the system"]]=[["Rate of flow"],["into the system"]]-[["Rate of flow"],["out of the system"]]+[["Rate of generation by chemical"],["reaction within the system"]]`</p>
- <br><p style="padding-bottom: 10px;font-weight:bold;">For component A (Reactant)</p>
+
+## For component A (Reactant)
+
  <p style="padding-bottom: 10px;">Flow rate of component A into the reactor = FA0<br>Flow rate of component Aout of the reactor = FCA<br>
  Rate of generation of component A by chemical reaction = -(-rA)V<br>
 $$Rate \ of \ accumulation \ of \ component \ A \ within \ the \ reactor \ = d \frac{(VC_A)}{dt}$$
@@ -66,7 +78,8 @@ $$(-r_A)=3918exp[5472.7( \frac{1}{273}-{1}{T})]-(C_AC_B- \frac{C_CC_D}{exp(\frac
   
 Substituting Equation (9) into equation (5), then we get<br>
 $$\frac{dC_A}{dt}=\frac{(F_{A0}C_{A0}-FC_A)}{V}-3918exp[5472.7(\frac{1}{273}-\frac{1}{T})]-(C_AC_B-\frac{C_CC_D}{exp(\frac{1698}{T})})$$
-<p style="padding-bottom: 10px;font-weight:bold;">For component B (Reactant)</p><br>
+## For component B (Reactant)
+
 <p style="padding-bottom: 10px;">
 Flow rate of component B into the reactor =FB0CB0<br>
 Flow rate of component B out of the reactor =FCB<br>
