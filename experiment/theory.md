@@ -9,7 +9,11 @@
 <p style="text-align:left; font-size:18px; font-weight:bold;">Activation Energy</p>
  <p style="padding-bottom: 10px;">Activation energy is defined as the minimum energy required starting a chemical reaction. The activation energy of a reaction is denoted by E, and unit is kilojoules per mole. Activation energy can be thought of as the height of the potential barrier (sometimes called the energy barrier) separating two minima of potential energy (of the reactants and products of a reaction). For a chemical reaction to proceed at a reasonable rate, there should exit an appreciable number of molecules with energy equal to or greater than the activation energy.</p><br>
  <p style="text-align:left; font-size:18px; font-weight:bold;">Reaction Rate Constant</p>
- <p style="padding-bottom: 10px;">For many reaction, and particularly elementary reaction, the rate expression can be written as a product of a temperature-dependent term and composition dependent term.<br><b>`ri=fi(temperature).f2(composition)`</b><br>For such reactions the temperature-dependent term, the reaction rate constant, has been found in practically all cases to be well represented by Arrhenius's law<br>`k=alpha exp(-E/(RT))`<br>At the same concentration, but at two different temperatures, Arrhenius's law indicates that<br>`ln (k_2/k_1)=E/R(1/T_1-1/T_2)`<br>Where, Frequency factor or pre-exponential factor
+ <p style="padding-bottom: 10px;">For many reaction, and particularly elementary reaction, the rate expression can be written as a product of a temperature-dependent term and composition dependent term.<br><b>`ri=fi(temperature).f2(composition)`</b><br>For such reactions the temperature-dependent term, the reaction rate constant, has been found in practically all cases to be well represented by Arrhenius's law<br>
+  $$k= \alpha exp(-\frac{E}{RT})$$
+<br>At the same concentration, but at two different temperatures, Arrhenius's law indicates that<br>
+ $$ln (\frac{k_2}{k_1})= \frac{E}{R}(\frac{1}{T_1}-\frac{1}{T_2})$$
+<br>Where, Frequency factor or pre-exponential factor
 <br>E = Activation energy
 <br>R = Universal gas constant.</p><br>
 
@@ -49,8 +53,15 @@ Assumptions
  <br><p style="padding-bottom: 10px;font-weight:bold;">For component A (Reactant)</p>
  <p style="padding-bottom: 10px;">Flow rate of component A into the reactor = FA0<br>Flow rate of component Aout of the reactor = FCA<br>
  Rate of generation of component A by chemical reaction = -(-rA)V<br>
-Rate of accumulation of component A within the reactor =`d((VC_A))/dt`<br>
- Here, (-rA) is the rate of disappearance of species A. V is the volume of the reactor. From equation (1), we obtain<br>`d((VC_A))/dt=F_(A0)C_(A0)-FC_A-(-r_A)V`<br>`(dC_A)/dt=((F_(A0)C_(A0)-FC_A))/V-(-r_A)`<br>For the given second order reaction, the rate of disappearance is<br>`(-r_A)=k(C_(A)C_(B)-(C_(C)C_(D))/K_C)`<br>`k=39178exp[5472.7(1/273-1/T)]`<br>`K_c=exp(1698/T)`<br>Substituting Equation (7) and (8) into equation (6), then we get<br>`(-r_A)=3918exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`<br>Substituting Equation (9) into equation (5), then we get<br>`(dC_A)/dt=((F_(A0)C_(A0)-FC_A))/V-3918exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`</p>
+$$Rate \ of \ accumulation \ of \ component \ A \ within \ the \ reactor \ = d \frac{(VC_A)}{dt}$$
+ Here, (-rA) is the rate of disappearance of species A. V is the volume of the reactor. From equation (1), we obtain<br>
+$$d \frac{(VC_A)}{dt}=F_{A0}C_{A0}-FC_A-(-r_A)V$$  
+$$\frac{dC_A}{dt}=\frac{(F_{A0}C_{A0}-FC_A)}{V}-(-r_A)$$
+For the given second order reaction, the rate of disappearance is<br>
+$$(-r_A)=k(C_(A)C_(B)-\frac{C_(C)C_(D))}{K_C)}$$
+$$k=39178exp[5472.7(\frac{1}{273}-\frac{1}{T}]$$
+$$K_c=exp(\frac{1698}{T})$$
+Substituting Equation (7) and (8) into equation (6), then we get<br>`(-r_A)=3918exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`<br>Substituting Equation (9) into equation (5), then we get<br>`(dC_A)/dt=((F_(A0)C_(A0)-FC_A))/V-3918exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`</p>
 <p style="padding-bottom: 10px;font-weight:bold;">For component B (Reactant)</p><br>
 <p style="padding-bottom: 10px;">
 Flow rate of component B into the reactor =FB0CB0<br>
