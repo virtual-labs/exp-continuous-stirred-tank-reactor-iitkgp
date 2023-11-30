@@ -64,7 +64,26 @@ The following second-order, exothermic chemical reaction takes place in the reac
  
 ## Component continuity equation
 
-<p style="padding-bottom: 10px;">The component balance equation is<br><br>`[["Rate of accumulation"],["within the system"]]=[["Rate of flow"],["into the system"]]-[["Rate of flow"],["out of the system"]]+[["Rate of generation by chemical"],["reaction within the system"]]`</p>
+<p style="padding-bottom: 10px;">The component balance equation is<br>
+ 
+$$
+\left[\begin{array}{cc} 
+Rate \ of \ accumulation \\
+within \ the \ system 
+\end{array}\right] =
+\left[\begin{array}{cc} 
+Rate \ of \ flow \\
+into \ the \ system
+\end{array}\right]-
+\left[\begin{array}{cc} 
+Rate \ of \ flow\\
+out \ of \ the \ system 
+\end{array}\right]+
+\left[\begin{array}{cc} 
+Rate \ of \ generation \ by \ chemical \\
+reaction \ within \ the \ system 
+\end{array}\right]
+$$
 
 ## For component A (Reactant)
 
