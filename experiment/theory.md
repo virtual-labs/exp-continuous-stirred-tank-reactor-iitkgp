@@ -10,6 +10,7 @@
 ## Activation Energy
  
  <p style="padding-bottom: 10px;">Activation energy is defined as the minimum energy required starting a chemical reaction. The activation energy of a reaction is denoted by E, and unit is kilojoules per mole. Activation energy can be thought of as the height of the potential barrier (sometimes called the energy barrier) separating two minima of potential energy (of the reactants and products of a reaction). For a chemical reaction to proceed at a reasonable rate, there should exit an appreciable number of molecules with energy equal to or greater than the activation energy.</p><br>
+ 
 ## Reaction Rate Constant
  <p style="padding-bottom: 10px;">For many reaction, and particularly elementary reaction, the rate expression can be written as a product of a temperature-dependent term and composition dependent term.<br><b>`ri=fi(temperature).f2(composition)`</b><br>For such reactions the temperature-dependent term, the reaction rate constant, has been found in practically all cases to be well represented by Arrhenius's law<br>
   $$k= \alpha exp(-\frac{E}{RT})$$
@@ -26,6 +27,7 @@
 ## Continuous Stirred Tank Reactor Theory
 
 <p style="padding-bottom: 10px;">The continuous stirred tank reactor or back mix reactor is a very common processing unit in chemical and polymer industry. Its names suggest, it is a reactor in which the contents are well stirred and uniform throughout. The CSTR is normally run at steady state, and is usually operated so as a to be quite well mixed. The CSTR is generally modeled as having no spatial variations in concentrations, temperature, or reaction rate throughout the vessel. Since the temperature and concentration are identical everywhere within the reaction vessel, they are the same at the exits point as they are elsewhere in the tank.</p>
+
 ## Steady State
 
 <p style="padding-bottom: 10px;">A situation in which all the state variables remain constant despite parallel processes trying to change them, is referred to as the steady state.</p>
@@ -38,9 +40,11 @@ The following second-order, exothermic chemical reaction takes place in the reac
 <br/>
 <img src="images/5.JPG" style="height: 300px;width: 300px"></img><br>Reactant A and B is continuously fed to the reactor with a volumetric flow rate FA0 and FB0, a molar concentration CA , and CB temperature T0. The contents are uniformly mixed by motorized agitator. An exit stream, which contains a mixture of reactant A and B and product C and D, is withdrawn from the reactor continuously with a volumetric flow rate F. The prescribed reaction is exothermic and it is necessary to add a cooling jacket to keep it temperature below 315K. A coolant stream volumetric flow rate Fj and inlet temperature Tj0 continuously takes out the heat to maintain the described reaction temperature.
 </p>
+
 ## Mathematical modeling of continuous stirred tank reactor
 
 <p style="padding-bottom: 10px;;font-weight:bold;">
+ 
 ### Assumptions
 <br/>
 <li> The mixture density (p) and heat capacity (Cp) are assumed constant.</li>
@@ -48,6 +52,7 @@ The following second-order, exothermic chemical reaction takes place in the reac
 <li>The heat losses from the process to the atmosphere are negligible.</li>
  <li>The overall heat transfer coefficient is assumed constant.</li>
  </p><br>
+ 
 ### Inputs to the system are
 <p style="padding-bottom: 10px;"><li>Initial concentration of component A =CA0</li>
  <li>Initial concentration of component B =CB0</li>
