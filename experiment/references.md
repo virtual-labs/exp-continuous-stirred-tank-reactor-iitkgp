@@ -6,5 +6,5 @@
 - William L.Luyben, Process Modeling Simulation and Control For Chemical Engineers, McGraw-Hill International Editions (1990).
 
 #### Video Lectures
-- [Comparison of CSTR]([http://nptel.ac.in/courses/117106114](https://www.youtube.com/watch?v=B8ihYUHCXLQ))
+- [Comparison of CSTR](https://www.youtube.com/watch?v=B8ihYUHCXLQ)
 
